@@ -1,0 +1,27 @@
+{
+    "name": "rajoyish/demo",
+    "autoload": {
+        "psr-4": {
+            "Core\\": "Core/",
+            "Http\\": "Http/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rajesh Budhathoki",
+            "email": "rajoyish@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/collections": "^10.43",
+        "laravel/pint": "^1.13"
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.33"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
